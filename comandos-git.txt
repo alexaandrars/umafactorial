@@ -1,0 +1,11 @@
+Clonar un repositorio de GitHub en nuestro equipo: git clone URL
+Crear un fichero nuevo y escribir el contenido que queramos: cat > nombre_fichero (cuando queramos dejar de escribir contenido pulsamos ctrl+Z)
+Editar el contenido de un fichero: nano nombre_fichero
+Añadir un fichero al Staging Area: git add nombre_fichero
+Confirmar los cambios a realizar en el repositorio local: git commit -m "mensaje"
+Publicar los cambios en una rama al repositorio de GitHub: git push origin nombre_rama
+Crear una nueva rama y cambiar el espacio de trabajo a ella: git checkout -b nombre_rama
+Cambiar de rama el espacio de trabajo: git checkout nombre_rama
+Mezclar los cambios de una rama en la actual: git merge nombre_de_la_otra_rama
+Guardar los cambios temporalmente: git stash
+
